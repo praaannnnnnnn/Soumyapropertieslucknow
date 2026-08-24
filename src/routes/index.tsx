@@ -4,6 +4,7 @@ import commercialCorner from "@/assets/commercial-corner.jpg";
 import plotUtrathiya from "@/assets/plot-utrathiya.jpg";
 import rowHouse from "@/assets/row-house.jpg";
 import compactHouse from "@/assets/compact-house.jpg";
+import logoAsset from "@/assets/soumya-logo.png.asset.json";
 
 const PHONE = "8858035504";
 
@@ -43,14 +44,14 @@ function Index() {
       </div>
 
       <nav className="mx-auto flex max-w-7xl items-end justify-between px-6 py-8">
-        <div>
-          <span className="font-display text-3xl leading-none font-bold tracking-tight text-primary italic">
-            Saumya
-          </span>
-          <p className="mt-1 font-mono text-[10px] tracking-widest uppercase opacity-60">
-            Properties &amp; Lands Lucknow
-          </p>
-        </div>
+        <img
+          src={logoAsset.url}
+          alt="Soumya Properties — lands and readymade homes, Lucknow, India"
+          width={1024}
+          height={559}
+          className="h-16 w-auto md:h-20"
+        />
+
         <a
           href={`tel:${PHONE}`}
           className="hidden border-b border-foreground/20 pb-1 font-mono text-sm transition-colors hover:border-primary md:block"
