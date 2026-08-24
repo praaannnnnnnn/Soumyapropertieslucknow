@@ -43,22 +43,33 @@ function Index() {
         </div>
       </div>
 
-      <nav className="mx-auto flex max-w-7xl items-end justify-between px-6 py-8">
-        <img
-          src={logoAsset.url}
-          alt="Soumya Properties — lands and readymade homes, Lucknow, India"
-          width={1024}
-          height={559}
-          className="h-16 w-auto md:h-20"
-        />
+      <nav className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-6">
+        <div className="flex items-center gap-4">
+          <img
+            src={logoAsset.url}
+            alt="Soumya Properties — lands and readymade homes, Lucknow, India"
+            width={1024}
+            height={559}
+            className="h-14 w-auto md:h-20"
+          />
+          <div className="border-l border-foreground/15 pl-4">
+            <span className="font-display block text-2xl leading-none font-bold tracking-tight md:text-3xl">
+              Soumya <span className="text-primary">Properties</span>
+            </span>
+            <span className="mt-1 block font-mono text-[9px] tracking-[0.22em] uppercase opacity-60 md:text-[10px]">
+              Lands &amp; Readymade Homes · Lucknow
+            </span>
+          </div>
+        </div>
 
         <a
           href={`tel:${PHONE}`}
-          className="hidden border-b border-foreground/20 pb-1 font-mono text-sm transition-colors hover:border-primary md:block"
+          className="rounded-sm bg-primary px-4 py-2 font-mono text-sm font-bold text-primary-foreground transition-opacity hover:opacity-90"
         >
           +91 {PHONE}
         </a>
       </nav>
+
 
       <header className="mx-auto mt-12 mb-24 max-w-7xl px-6">
         <div className="animate-slide-up max-w-4xl">
