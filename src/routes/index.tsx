@@ -4,6 +4,7 @@ import commercialCorner from "@/assets/commercial-corner.jpg";
 import plotUtrathiya from "@/assets/plot-utrathiya.jpg";
 import rowHouse from "@/assets/row-house.jpg";
 import compactHouse from "@/assets/compact-house.jpg";
+import logoAsset from "@/assets/soumya-logo.png.asset.json";
 
 const PHONE = "8858035504";
 
