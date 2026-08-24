@@ -77,11 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Saumya Properties | Land & Homes in Lucknow" },
+      {
+        name: "description",
+        content:
+          "Saumya Properties sells plots, commercial land and homes in Lucknow at the best rates. Call 8858035504.",
+      },
+      { name: "author", content: "Saumya Properties" },
+      { property: "og:title", content: "Saumya Properties | Land & Homes in Lucknow" },
+      {
+        property: "og:description",
+        content: "Plots and houses across Lucknow starting at ₹600/sq.ft.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
